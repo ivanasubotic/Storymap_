@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moj StoryMap</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #004080;
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1rem;
+    }
+    .map-container {
+      width: 100%;
+      height: calc(100vh - 120px); /* visina ekrana minus header */
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    footer {
+      background: #f2f2f2;
+      text-align: center;
+      padding: 0.8rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Moj ArcGIS StoryMap</h1>
+    <p>Ovde možete pogledati moju interaktivnu mapu i analizu.</p>
+  </header>
+
+  <div class="map-container">
+    <!-- 👇 Zameni link svojim StoryMap URL-om -->
+    <iframe src="https://storymaps.arcgis.com/stories/a2083c36042242dabc4f075eda28b136"></iframe>
+  </div>
+
+  <footer>
+    &copy; 2025 Moj projekat | Hostovano na GitHub Pages
+  </footer>
+
+</body>
+</html>
